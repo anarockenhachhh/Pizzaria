@@ -1,0 +1,220 @@
+/* Reset básico e configurações gerais do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Seção com imagem de fundo (hero section) */
+.imagem {
+    width: 100vw;
+    height: 68vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('Imagens/papel.jpg');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
+/* Estilização do menu de navegação */
+.menu {
+    display: flex;
+    justify-content: center;      
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;                   
+    margin: 0;
+    padding: 0;
+    list-style: none;          
+}
+
+.menu li {
+    transition: color 0.3s;     
+}
+
+.menu li:hover {
+    color: #ffcc00;             
+}
+
+/* Estilização do texto central */
+.texto {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Estilização do botão principal */
+.botao {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff8c00;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.botao:hover {
+    transform: translateY(-3px);  
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #ff9900;    
+}
+
+/* Seção do cardápio */
+.cardapio {
+    padding: 20px 0;             
+    text-align: center;
+    background: white; 
+}
+
+/* Container dos cards de produtos */
+.container {
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;
+    gap: 20px;              
+    max-width: 12300px;
+    margin-top: -20px;
+    padding: 49px;
+}
+
+/* Estilização individual de cada card */
+.card {
+    width: calc(1% - 0px);
+    min-width: 280px;           
+    margin-top: -10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(175, 115, 115, 0.1);
+    transition: transform 0.3s;  
+}
+
+.card:hover {
+    transform: scale(1.05);   
+    outline: 2px solid orange;  
+}
+
+/* Imagem interna do card */
+.img {
+    height: 135px;
+    background-image: url(Imagens/pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);     
+    transform: scale(1.03);  
+}
+
+/* Área de texto dentro do card */
+.details {
+    padding: 15px;
+}
+
+/* Estilo do subtítulo */
+.subtitulo {
+    margin-bottom: 30px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Elementos em destaque (como preços) */
+.destaque {
+    display: block;
+    margin-bottom: 5px;
+    color: orange;
+    font-weight: bold;
+}
+
+/* Seção de contato */
+.contato-container {
+    max-width: 900px;
+    margin: 0 auto;            
+    padding: 10px;
+    text-align: center;
+}
+
+/* Grid para organizar informações de contato */
+.dados-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Botão de pedido especial */
+.botao-pedido {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;   
+}
+
+.botao-pedido:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ff9900;
+}
+
+/* Estilização do rodapé */
+.rodape p {
+    width: 100vw;
+    margin-top: auto;
+    margin-left: -50vw;
+    left: 50%;
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+
+/* Seção "Sobre" com imagem de fundo */
+.sobre {
+    width: 100%;          
+    min-width: 100vw;     
+    height: 9vh;         
+    margin: 0;
+    padding: 70px 10px;
+    background-image: url('Imagens/papel.jpg');
+    background-size: cover;          
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: local;   
+}
+
+.sobre h1 {
+    text-align: center; 
+    color: white;
+    margin: 0 auto; 
+    font-size: 1.9rem; 
+    margin-bottom: 20px; 
+}
+
+.sobre p {
+    color: white;
+    max-width: 800px;             
+    margin: 0 auto;              
+    font-size: 1.0rem;           
+}
