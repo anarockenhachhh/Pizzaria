@@ -39,12 +39,4 @@ Este projeto foi desenvolvido como uma **atividade prática fundamental** durant
 * Aplicação de estilos CSS para design e responsividade.
 * Organização de arquivos e boas práticas de desenvolvimento front-end.
 
-## 🙏 Agradecimentos
-
-Gostaria de expressar minha gratidão ao professor **MARUZAM BUENO FERREIRA JÚNIOR** por toda a orientação, apoio e conhecimento compartilhado ao longo do processo de desenvolvimento.
-
-Meu muito obrigado também ao **Senac Minas** pela formação de qualidade que vem contribuindo diretamente com meu crescimento profissional.
-
----
-
 **Desenvolvido por:** Ana Rockenbach
